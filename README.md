@@ -194,7 +194,7 @@ You'll learn more about the various access modifiers in your Java readings soon.
 
 Now that you've made your first edits to your code, you should ask git to save these changes for you.
 
-- [ ] Open the Terminal tab in IntelliJ and type `git status`, it will show you that you have modified `FizzBuzz.java` (and this README too!).
+- [X] Open the Terminal tab in IntelliJ and type `git status`, it will show you that you have modified `FizzBuzz.java` (and this README too!).
 
 We will save our local changes to `FizzBuzz.java` and then push the changes to your GitHub repository using
 a sequence of three git commands:
@@ -208,7 +208,7 @@ a sequence of three git commands:
    - And if you run `git log`, you will see a record of all commits made so far in the repository.
    - The `-m "refactored to extract helper method"` is the message briefly documenting what changes were made.
    You can put whatever message you want in the quotes, but try to keep it short and descriptive.
-3. `git push`
+3. `git push` 
    - this last step is what actually sends your committed changes to your remote GitHub repository.
    - IMPORTANT: You likely won't have your system configured for this command to actually work directly, so you
    will need to do the actual push using IntelliJ. See the first tip below, which mentions how to perform
